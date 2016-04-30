@@ -23,7 +23,6 @@ public class Frame {
 		button.setPreferredSize(new Dimension(0, 100));
 		frame.add(button, BorderLayout.PAGE_END);
 
-
 		frame.setVisible(true);
 	}
 }
