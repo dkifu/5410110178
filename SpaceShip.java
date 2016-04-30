@@ -13,7 +13,7 @@ public class SpaceShip extends Sprite{
 
 	@Override
 	public void draw(Graphics2D g) {
-		g.setColor(Color.GREEN);
+		g.setColor(Color.RED);
 		g.fillRect(x, y, width, height);
 		
 		
@@ -23,8 +23,8 @@ public class SpaceShip extends Sprite{
 		x += (step * directionX);
 		if(x < 0)
 			x = 0;
-		if(x > 400 - width)  //400 equal Size of width windows
-			x = 400 - width;
+		if(x > 500 - width)  //400 equal Size of width windows
+			x = 500 - width;
 		y += (step * directionY);
 		if(y < 0)
 			y = 0;
